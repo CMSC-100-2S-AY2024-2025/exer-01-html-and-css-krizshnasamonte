@@ -1,4 +1,9 @@
+
+
+
 .middle {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     color: rgb(152, 206, 238);
 }
