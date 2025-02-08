@@ -1,9 +1,78 @@
 
-
-
+.logo-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(32, 39, 43);
+    border: 1px solid rgb(255, 191, 191);
+    align-items: center;
+}
 .middle {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: rgb(152, 206, 238);
+    color: rgb(32, 39, 43);
+    border: 1px solid rgb(255, 191, 191);
+    align-items: center;
 }
+
+.previous-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000 px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.feat-autobio{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.self-photo {
+    display: flex;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    color: rgb(32, 39, 43);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.projects h4 {
+   text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(32, 39, 43);
+    border: 1px solid rgb(255, 191, 191);
+    align-items: center;
+}
+
+ .autobio-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    max-width: 500px;
+} 
+
+.feat-photo-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
