@@ -1,21 +1,24 @@
+body{
+    background-color: #bed4f0;
+    font-family: 'Poppins', sans-serif;
+}
 
 .logo-nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
     color: rgb(32, 39, 43);
-    border: 1px solid rgb(255, 191, 191);
     align-items: center;
 }
-
+  
 /* formats content under middle class (main body content) to be displayed by column and aligned in the center */
 .middle {
     display: flex;
     justify-content: center;
     flex-direction: column;
     color: rgb(32, 39, 43);
-    border: 1px solid rgb(255, 191, 191);
     align-items: center;
+    background-color: #bed4f0;
 }
 
 /* formats featured photo container to arrange conent by column (the title and picture) */
@@ -23,6 +26,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* formats autobiography content to a max-width for neatness */
@@ -33,10 +38,15 @@
     flex-wrap: wrap;
     align-items: center;
     width: 50%;
-    max-width: 500px;
+    max-width: 600px;
+    margin-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fcced3;
+    text-align: justify;
 } 
-
-
 
 .feat-autobio{
     display: flex;
@@ -44,9 +54,10 @@
     gap: 100px;
 }
 
-.self-photo {
-    display: flex;
-    align-items: center;
+#project-title{
+    padding-left: 650px;
+    padding-right: 650px;
+    background-color: #fcced3;
 }
 
 /* displays tags under class projects by row with some gap*/
@@ -58,6 +69,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+    background-color: #bed4f0;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: medium;
 }
 
 /* aligns the titles of each project to center */
@@ -73,15 +88,25 @@ the other pictures from being moved around*/
     flex-direction: column;
     align-items: center;
     width: 330px; 
-    text-align: center;
+    text-align: justify;
+}
+
+#skill-title{
+    padding-left: 730px;
+    padding-right: 730px;
+    background-color: #fcced3;
+    font-size: large;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     color: rgb(32, 39, 43);
-    border: 1px solid rgb(255, 191, 191);
-    align-items: center;
+    align-items:flex-start;
+    background-color: aliceblue;
 }
 
+.content {
+    line-height: 0.6;
+    font-size: small;
+}
