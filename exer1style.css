@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     color: rgb(32, 39, 43);
     align-items: center;
+    border: 5px solid rgb(255, 255, 255);
 }
   
 /* formats content under middle class (main body content) to be displayed by column and aligned in the center */
@@ -19,6 +20,7 @@ body{
     color: rgb(32, 39, 43);
     align-items: center;
     background-color: #bed4f0;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 /* formats featured photo container to arrange conent by column (the title and picture) */
@@ -28,6 +30,7 @@ body{
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 /* formats autobiography content to a max-width for neatness */
@@ -46,6 +49,7 @@ body{
     padding-bottom: 10px;
     background-color: #fcced3;
     text-align: justify;
+    border: 5px solid rgb(255, 255, 255);
 } 
 
 .feat-autobio{
@@ -55,9 +59,12 @@ body{
 }
 
 #project-title{
-    padding-left: 650px;
-    padding-right: 650px;
+    padding-left: 622px;
+    padding-right: 622px;
     background-color: #fcced3;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 /* displays tags under class projects by row with some gap*/
@@ -70,9 +77,10 @@ body{
     justify-content: space-around;
     gap: 20px;
     background-color: #bed4f0;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 55px;
+    padding-right: 55px;
     font-size: medium;
+    /* border: 5px solid rgb(255, 255, 255); */
 }
 
 /* aligns the titles of each project to center */
@@ -92,10 +100,12 @@ the other pictures from being moved around*/
 }
 
 #skill-title{
-    padding-left: 730px;
-    padding-right: 730px;
+    color: rgb(255, 255, 255);
+    padding-left: 710px;
+    padding-right: 710px;
     background-color: #fcced3;
-    font-size: large;
+    font-size: x-large;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .footer {
@@ -103,10 +113,18 @@ the other pictures from being moved around*/
     flex-direction: row;
     color: rgb(32, 39, 43);
     align-items:flex-start;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .content {
     line-height: 0.6;
     font-size: small;
+}
+
+.skills-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
 }
